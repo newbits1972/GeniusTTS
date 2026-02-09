@@ -54,5 +54,5 @@ export function createWavBlob(pcmData: Uint8Array, sampleRate: number): Blob {
   d.setUint32(36, 0x64617461, false); // "data"
   d.setUint32(40, pcmData.length, true);
 
-  return new Blob([header, pcmData], { type: 'audio/wav' });
+  return new Blob([header, pcmData] as any, { type: 'audio/wav' });
 }
