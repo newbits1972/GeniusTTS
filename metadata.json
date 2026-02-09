@@ -1,0 +1,6 @@
+
+{
+  "name": "VozGenius TTS",
+  "description": "Una aplicación avanzada de generación de voz a partir de texto (TTS) con selección de acentos, estilos y etiquetas personalizadas para una experiencia sonora realista.",
+  "requestFramePermissions": []
+}
